@@ -1,0 +1,597 @@
+
+/* GLOBAL STYLES */
+
+/* Layout*/
+
+
+
+body {
+    width: 100%;
+}
+
+
+.margin {
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.flex-row-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.flex-1 {
+    flex: 1;
+    margin-right: 48px;
+}
+
+.flex-2 {
+    flex: 2;
+    margin-right: 48px;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
+
+.flex-1-small {
+    flex: 1;
+    margin-right: 24px;
+}
+
+.flex-2-small {
+    flex: 2;
+    margin-right: 48px;
+}
+
+.flex-2-small h2 {
+    line-height: 0px;
+}
+
+
+.schedule {
+    align-items: center;
+}
+
+.schedule h3 {
+    text-align: center;
+}
+
+
+
+/* -------------------------------------  HEADER/HERO -------------------------------------*/
+
+#logo {
+    width: 300px;
+}
+
+#top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top-nav ul {
+    padding: 0;
+}
+
+#top-nav li {
+    list-style-type: none;
+    margin-right: 42px;
+    border-bottom: 2px solid white;
+    padding-bottom: 4px;
+    display: inline;
+    text-align: right;
+}
+
+#top-nav li:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+}
+
+.img-hero {
+    display: flex;
+    padding: 0px;
+    width: 100%;
+}
+
+.img-100 {
+    width: 100%;
+}
+
+
+.header-center-aligned {
+  display: box;
+  display: flex;
+  box-align: center;
+  align-items: center;
+  box-pack: center;
+  justify-content: center;
+}
+
+.background-image {
+  position: relative;
+  width: 100%;
+}
+
+.header-text {
+  position: absolute;
+}
+
+.header-text h1 {
+  font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+  font-weight: 600;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+/* -------------------------------------  TEXT STYLES -------------------------------------*/
+
+
+.all-caps {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+h1 {
+  font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+  font-weight: 300;
+    line-height: 40px; /* 100% */
+    color: black;
+    text-align: center;
+    margin: 24px 0px 48px 0px;
+    text-transform: uppercase;
+}
+
+
+h2 {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+h3 {
+  font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+  font-weight: 300;
+    line-height: 40px; /* 100% */
+    color: black;
+    text-align: left;
+    margin: 24px 0px 48px 0px;
+    text-transform: uppercase;
+}
+
+
+p {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+a {
+    color: black;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/* -------------------------------------  BUTTONS -------------------------------------*/
+
+.btn-main {
+    background-color: #1B4965;
+    padding: 15px;
+    height: 45px;
+    color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+    font-style: normal;
+  font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    outline: none;
+    border-style: none;
+}
+
+.btn-main:hover {
+    outline: 2px solid black;
+    background-color: white;
+    color: black;
+    border-style: none;
+}
+
+
+.btn-light {
+    background-color: white;
+    padding: 15px;
+    height: 45px;
+    color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+    font-style: normal;
+  font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    outline: none;
+    border-style: none;
+}
+
+.btn-light:hover {
+    outline: 2px solid white;
+    background-color: #388659;
+    color: white;
+    border-style: none;
+}
+
+
+
+
+/* ---------------------------   PADDINGS  --------------------------*/
+
+.padding-sections {
+    padding: 80px 0px 80px 0px;
+}
+
+
+.padding-40 {
+    padding: 40px 0;
+}
+
+
+.social-icons {
+    width: 40px;
+    margin-right: 18px;
+}
+
+
+.blocks {
+    padding: 52px;
+    background-color: white;
+    margin-bottom: 42px;
+}
+
+.narrow-margins {
+    margin-right: 335px;
+    margin-left: 335px;
+}
+
+.padding-40 {
+    padding: 40px 0;
+}
+
+.padding-below {
+    padding-bottom: 54px;
+}
+
+
+
+
+/* ---------------------------   BACKGROUNDSTUFF  --------------------------*/
+
+.sect-dark {
+    background-color: #388659;
+}
+
+.sect-dark p {
+    color: white;
+}
+
+.sect-dark h2 {
+    color: white;
+}
+
+.sect-dark h1 {
+    color: white;
+}
+
+.footer-back {
+    background-color: #1B4965;
+}
+
+
+.resources-back {
+    background-color: #006E90;
+}
+
+.resources-back h1 {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------   MEDIA QUERIES  --------------------------*/  
+
+
+/* SMARTPHONE */     
+@media screen and (max-width: 480px) {
+    body {
+    }
+
+
+.flex-row-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    } 
+
+.flex-row-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    }
+
+    .margin {
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+
+    .narrow-margins {
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+    .mobile-nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 24px 0;
+    }
+
+.all-caps {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    #logo {
+        margin-bottom: 0;
+    }
+
+.blocks {
+    margin-bottom: 24px;
+    padding: 24px;
+
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+  font-weight: 300;
+    line-height: 40px; /* 100% */
+    color: black;
+    text-align: center;
+    margin: 24px 0px 24px 0px;
+    text-transform: uppercase;
+}
+
+.flex-1 {
+    flex: 1;
+    width: 100%;
+    margin-right: 24px;
+    margin-bottom: 48px;
+}
+
+
+.header-text h1 {
+  font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+  font-weight: 600;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.flex-1-small {
+    flex: 1;
+    margin-right: 24px;
+}
+
+.flex-2-small {
+    flex: 2;
+    margin-right: 24px;
+    margin-bottom: 54px;
+}
+
+
+}
+
+
+
+
+/*--- TABLET ----*/
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+body {
+    }
+    .margin {
+        margin-right: 32px;
+        margin-left: 32px;
+    }
+
+    .narrow-margins {
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+    .mobile-nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 24px 0;
+    }
+
+.all-caps {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    #logo {
+        margin-bottom: 0;
+    }
+
+
+.blocks {
+    padding: 24px;
+    background-color: whitesmoke;
+    margin-bottom: 24px;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+  font-weight: 300;
+    line-height: 40px; /* 100% */
+    color: black;
+    text-align: center;
+    margin: 24px 0px 48px 0px;
+    text-transform: uppercase;
+}
+
+.flex-1 {
+    flex: 1;
+    width: 100%;
+    margin-right: 24px;
+    margin-bottom: 48px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+/*------ LAPTOP --------*/
+
+@media screen and (max-width: 1279px) and (min-width: 769px) {
+     body {
+    }
+
+    .hidden-desktop {
+        display: none;
+    }
+}
+
+/*-------- DESKTOP -------*/
+
+@media screen and (max-width: 1440px) and (min-width: 1280px) {
+     body {
+    }
+
+     .hidden-desktop {
+        display: none;
+    }
+}
+
+/* -------EXTRA-LARGE -------*/
+
+@media screen and (min-width: 1441px) {
+     body {
+ }
+     .hidden-desktop {
+        display: none;
+    }
+}
